@@ -5,32 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b166c499-ee3c-4343-9e40-5b95a1bd644d" name="Default" comment="First buildable version without any testing">
-      <change afterPath="$PROJECT_DIR$/ItemRestrict.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/ActionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/ConfigStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/EventListenerIres.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/ItemRestrict.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/ItemRestrictCmd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/QuickStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/config/ConfigLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/config/IresConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/config/MessagesConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ItemRestrict (1).iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/ItemRestrict.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/src/main/java/info/wubsy/itemrestrict/ActionType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/src/main/java/info/wubsy/itemrestrict/ConfigStore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/src/main/java/info/wubsy/itemrestrict/EventListenerIres.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/src/main/java/info/wubsy/itemrestrict/ItemRestrict.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/src/main/java/info/wubsy/itemrestrict/ItemRestrictCmd.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/src/main/java/info/wubsy/itemrestrict/QuickStore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/src/main/java/info/wubsy/itemrestrict/config/ConfigLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/src/main/java/info/wubsy/itemrestrict/config/IresConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/src/main/java/info/wubsy/itemrestrict/config/MessagesConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ItemRestrict (1).iml" beforeDir="false" afterPath="$PROJECT_DIR$/ItemRestrict (1).iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/backup/target/" />
@@ -58,10 +36,14 @@
     <favorites_list name="ItemRestrict" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ItemRestrict.iml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -141,6 +123,8 @@
         <option value="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/ConfigStore.java" />
         <option value="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/ItemRestrictCmd.java" />
         <option value="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/QuickStore.java" />
+        <option value="$PROJECT_DIR$/ItemRestrict.iml" />
+        <option value="$PROJECT_DIR$/ItemRestrict (1).iml" />
       </list>
     </option>
   </component>
@@ -202,7 +186,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
-    <option name="width" value="979" />
+    <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -211,23 +195,33 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ItemRestrict" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ItemRestrictSrc" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GO_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546638247358" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546639898457" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ItemRestrict.iml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -481,7 +475,9 @@
       <workItem from="1546422252485" duration="29726000" />
       <workItem from="1546563123732" duration="27103000" />
       <workItem from="1546590442706" duration="2013000" />
-      <workItem from="1546592690084" duration="3958000" />
+      <workItem from="1546592690084" duration="4666000" />
+      <workItem from="1546639499501" duration="82000" />
+      <workItem from="1546639587221" duration="148000" />
     </task>
     <task id="LOCAL-00001" summary="Halfway done, Config needs to be given its own folder and merge contents of store.">
       <created>1545776675697</created>
@@ -508,7 +504,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107735000" />
+    <option name="totallyTimeSpent" value="108673000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -522,8 +518,8 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2295302" />
-      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23624161" />
+      <window_info id="Structure" order="1" weight="0.24966443" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -538,9 +534,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="REST Client" order="7" weight="0.43342775" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33994335" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4986577" visible="true" weight="0.33994335" />
       <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.3298969" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013423" side_tool="true" visible="true" weight="0.33994335" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
@@ -563,6 +559,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict" />
+    </ignored-roots>
     <MESSAGE value="Halfway done, Config needs to be given its own folder and merge contents of store." />
     <MESSAGE value="First buildable version without any testing" />
     <option name="LAST_COMMIT_MESSAGE" value="First buildable version without any testing" />
@@ -573,54 +572,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/mod/plugin/DependencyHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-          <folding>
-            <element signature="imports" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/mod/command/SpongeForgeCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/command/args/GenericArguments.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-319">
-          <caret line="109" column="19" selection-start-line="109" selection-end-line="2717" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/command/args/CommandFlags.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="399" column="23" selection-start-line="399" selection-start-column="23" selection-end-line="399" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/mod/command/SpongeForgeCommand.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/command/args/GenericArguments.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/command/args/CommandFlags.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/bukkit/Material.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/bukkit/entity/Entity.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/command/args/CommandContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-253">
-          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/command/args/CommandContext.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/bukkit/plugin/java/JavaPlugin.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/block/BlockState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/block/BlockState.java" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -635,168 +594,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/item/inventory/type/GridInventory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="60" column="8" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/item/inventory/type/GridInventory.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/flowpowered/math/test.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/text/selector/ArgumentHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="64" column="14" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/CatalogType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/event/Listener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/event/network/ClientConnectionEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/event/block/ChangeBlockEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1212">
-          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/event/entity/living/humanoid/HandInteractEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/event/item/inventory/CraftItemEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="69" column="14" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/event/block/InteractBlockEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="92" column="40" lean-forward="true" selection-start-line="92" selection-start-column="40" selection-end-line="92" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/world/World.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="115" column="28" selection-start-line="115" selection-start-column="28" selection-end-line="115" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/item/inventory/ItemStackSnapshot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-277">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/event/item/inventory/ClickInventoryEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/event/item/inventory/InteractInventoryEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/data/DataHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/item/inventory/property/SlotPos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/event/item/inventory/AffectSlotEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/event/item/inventory/ChangeInventoryEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="42" column="74" lean-forward="true" selection-start-line="42" selection-start-column="74" selection-end-line="42" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/event/item/inventory/TargetInventoryEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/item/inventory/Inventory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="372" column="54" selection-start-line="372" selection-start-column="54" selection-end-line="372" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/item/inventory/ItemStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="318" column="38" selection-start-line="318" selection-start-column="31" selection-end-line="318" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/event/world/chunk/TargetChunkEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/event/world/chunk/LoadChunkEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="31" column="44" lean-forward="true" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ninja/leaping/configurate/hocon/HoconConfigurationLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="109" column="9" lean-forward="true" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/text/selector/ArgumentHolder.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/CatalogType.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/event/Listener.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/event/network/ClientConnectionEvent.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/event/block/ChangeBlockEvent.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/event/entity/living/humanoid/HandInteractEvent.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/event/item/inventory/CraftItemEvent.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/event/block/InteractBlockEvent.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/world/World.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/item/inventory/ItemStackSnapshot.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/event/item/inventory/ClickInventoryEvent.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/event/item/inventory/InteractInventoryEvent.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/data/DataHolder.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/item/inventory/property/SlotPos.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/event/item/inventory/AffectSlotEvent.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/event/item/inventory/ChangeInventoryEvent.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/event/item/inventory/TargetInventoryEvent.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/item/inventory/Inventory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/item/inventory/ItemStack.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/event/world/chunk/TargetChunkEvent.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/event/world/chunk/LoadChunkEvent.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ninja/leaping/configurate/hocon/HoconConfigurationLoader.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
@@ -811,13 +632,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/item/ItemTypes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/item/ItemTypes.java" />
     <entry file="uml://MAVEN/info.wubsy.itemrestrict.ItemRestrict:ItemRestrict:1.5.0-SNAPSHOT">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -886,13 +701,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backup/ItemRestrict.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/ItemRestrict.iml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/ActionType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -900,13 +709,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/command/spec/CommandExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="43" column="14" lean-forward="true" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/command/spec/CommandExecutor.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/ItemRestrictCmd.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -939,8 +742,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ItemRestrict (1).iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ItemRestrict.iml">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
