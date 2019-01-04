@@ -1,0 +1,24 @@
+Worlds:
+- All
+Scanner:
+  event:
+    onPlayerJoin: 1
+    onChunkLoad: 0.1
+Bans:
+  Usage:
+#  - sponge
+  Equip:
+  Crafting:
+  Ownership:
+#  - bedrock
+#  - wool-6
+  World:
+Messages:
+  labels:
+#    wool: Bedrock
+#    sponge: Sponge
+#    wool-6: Pink Wool
+  reasons:
+#    bedrock: Bedrock should not be mined
+#    sponge: Sponge is only usable by donors
+#    wool-6: Pink wool is too awesome for you
