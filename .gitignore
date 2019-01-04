@@ -39,3 +39,7 @@ Thumbs.db
 # Funky paths #
 ######################
 target/
+com/
+co/
+ninja/
+org/
