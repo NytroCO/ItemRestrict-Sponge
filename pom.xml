@@ -1,0 +1,135 @@
+<<<<<<< HEAD
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>info.wubsy.itemrestrict.ItemRestrict</groupId>
+    <artifactId>ItemRestrict</artifactId>
+    <version>1.5.0-SNAPSHOT</version>
+    <name>ItemRestrict</name>
+    <url>https://github.com/NytroCO/ItemRestrict-Sponge</url>
+    <packaging>jar</packaging>
+    <description>Ban items and blocks for Sponge based servers</description>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+  
+    <repositories>
+		<repository>
+			<id>sponge</id>
+			<url>https://repo.spongepowered.org/maven</url>
+		</repository>
+    </repositories>
+	<dependencies>
+		<dependency>
+			<groupId>org.spongepowered</groupId>
+			<artifactId>spongeapi</artifactId>
+			<version>7.1.0</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+    <build>
+        <resources>
+            <resource>
+                <targetPath>.</targetPath>
+                <directory>${basedir}/src/main/resources/</directory>
+                <filtering>true</filtering>
+                <includes>
+                    <include>config.yml</include>
+                    <include>plugin.yml</include>
+                </includes>
+            </resource>
+            <resource>
+                <targetPath>.</targetPath>
+                <directory>${basedir}/</directory>
+                <filtering>false</filtering>
+                <includes>
+                    <include>README.md</include>
+                </includes>
+            </resource>
+        </resources>
+        
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.5.1</version>
+                <configuration>
+                    <showDeprecation>true</showDeprecation>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
+=======
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>info.wubsy.itemrestrict.ItemRestrict</groupId>
+    <artifactId>ItemRestrict</artifactId>
+    <version>1.5.0-SNAPSHOT</version>
+    <name>ItemRestrict</name>
+    <url>https://github.com/NytroCO/ItemRestrict-Sponge</url>
+    <packaging>jar</packaging>
+    <description>Ban items and blocks for Sponge based servers</description>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+  
+    <repositories>
+		<repository>
+			<id>sponge</id>
+			<url>https://repo.spongepowered.org/maven</url>
+		</repository>
+    </repositories>
+	<dependencies>
+		<dependency>
+			<groupId>org.spongepowered</groupId>
+			<artifactId>spongeapi</artifactId>
+			<version>7.1.0</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+    <build>
+        <resources>
+            <resource>
+                <targetPath>.</targetPath>
+                <directory>${basedir}/src/main/resources/</directory>
+                <filtering>true</filtering>
+                <includes>
+                    <include>config.yml</include>
+                    <include>plugin.yml</include>
+                </includes>
+            </resource>
+            <resource>
+                <targetPath>.</targetPath>
+                <directory>${basedir}/</directory>
+                <filtering>false</filtering>
+                <includes>
+                    <include>README.md</include>
+                </includes>
+            </resource>
+        </resources>
+        
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.5.1</version>
+                <configuration>
+                    <showDeprecation>true</showDeprecation>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
+>>>>>>> e7ac74a8935bc5461db79b21c9a88453d35d6bd9
