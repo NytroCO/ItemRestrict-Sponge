@@ -7,6 +7,7 @@ import info.wubsy.itemrestrict.config.MessagesConfig;
 import ninja.leaping.configurate.objectmapping.GuiceObjectMapperFactory;
 import org.slf4j.Logger;
 import org.spongepowered.api.Game;
+import org.spongepowered.api.Server;
 import org.spongepowered.api.Sponge;
 import org.spongepowered.api.config.ConfigDir;
 import org.spongepowered.api.event.Listener;
@@ -15,16 +16,7 @@ import org.spongepowered.api.plugin.Plugin;
 
 import java.io.File;
 
-//import info.wubsy.itemrestrict.ItemRestrictCmd;
-//import org.spongepowered.api.command.args.GenericArguments;
-//import org.spongepowered.api.command.spec.CommandSpec;
-//import org.spongepowered.api.event.game.GameReloadEvent;
-//import org.spongepowered.api.event.game.state.GameInitializationEvent;
-//import org.spongepowered.api.scheduler.Task;
-//import org.spongepowered.api.service.pagination.PaginationService;
-//import org.spongepowered.api.world.Chunk;
-//import org.spongepowered.api.world.World;
-//import org.spongepowered.api.text.Text;
+import static org.spongepowered.api.Sponge.getServer;
 
 @Plugin(name = "ItemRestrictSponge", id = "itemrestrictsponge", version = "0.0.1", description = "A remake of the early bukkit version of itemrestrict")
 public class ItemRestrict {
@@ -32,6 +24,7 @@ public class ItemRestrict {
 
 	// Create static instances
 	public static Logger logger;
+	public static Server server;
 
 	// Create storage interfaces
 	public ConfigStore cStore;
@@ -63,6 +56,7 @@ public class ItemRestrict {
 	}
 	@Listener
 	public void onPreInit(GamePreInitializationEvent event) {
+		server = getServer();
 		getLogger().info("Setting up config...");
 		cfgLoader = new ConfigLoader(this);
 		if (cfgLoader.loadConfig()) iresConfig = cfgLoader.getIresConfig();

@@ -84,7 +84,7 @@ public class ItemRestrictCmd implements CommandExecutor {
     }
 
     private List<Text> getCommands() {
-        List<Text> texts = new ArrayList<>();
+        List<Text> texts = new ArrayList<Text>();
         texts.add(Text.builder().onClick(TextActions.suggestCommand("/ires reload"))
                 .onHover(TextActions.showText(Text.of("Reload ItemRestrict config")))
                 .append(Text.of("/ires reload"))

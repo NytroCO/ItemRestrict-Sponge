@@ -8,6 +8,9 @@ import ninja.leaping.configurate.hocon.HoconConfigurationLoader;
 import ninja.leaping.configurate.loader.ConfigurationLoader;
 
 import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by Wubsy on 12/25/2018.
  */
@@ -72,6 +75,49 @@ public class ConfigLoader {
         } catch (Exception e) {
             plugin.getLogger().error("Could not save config.", e);
         }
+    }
+
+    public ArrayList<ArrayList<String>> getBanList() { // Yikes
+        IresConfig.Bans bans = getIresConfig().bans;
+        ArrayList<ArrayList<String>> allBans = new ArrayList<ArrayList<String>>();
+        ArrayList<String> craftBans = new ArrayList<String>(bans.craftBlacklist);
+        ArrayList<String> equipBans = new ArrayList<String>(bans.equipBlacklist);
+        ArrayList<String> ownBans = new ArrayList<String>(bans.ownershipBlacklist);
+        ArrayList<String> useBans = new ArrayList<String>(bans.usageBlacklist);
+        ArrayList<String> worldBans = new ArrayList<String>(bans.worldBlacklist);
+        allBans.add(craftBans);
+        allBans.add(equipBans);
+        allBans.add(ownBans);
+        allBans.add(useBans);
+        allBans.add(worldBans);
+
+        return allBans;
+    }
+
+    public List<String> getCraftBans() {
+        IresConfig.Bans bans = getIresConfig().bans;
+        return bans.craftBlacklist;
+    }
+
+    public List<String> getEquipBans() {
+        IresConfig.Bans bans = getIresConfig().bans;
+        return bans.equipBlacklist;
+    }
+
+    public List<String> getOwnBans() {
+        IresConfig.Bans bans = getIresConfig().bans;
+        return bans.ownershipBlacklist;
+    }
+
+    public List<String> getUseBans() {
+        IresConfig.Bans bans = getIresConfig().bans;
+        return bans.usageBlacklist;
+    }
+
+    public List<String> getWorldBans() {
+        IresConfig.Bans bans = getIresConfig().bans;
+        return bans.worldBlacklist;
+
     }
 
     public IresConfig getIresConfig() {
