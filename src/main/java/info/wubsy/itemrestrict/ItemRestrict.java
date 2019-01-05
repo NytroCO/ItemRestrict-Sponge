@@ -9,10 +9,14 @@ import org.slf4j.Logger;
 import org.spongepowered.api.Game;
 import org.spongepowered.api.Server;
 import org.spongepowered.api.Sponge;
+import org.spongepowered.api.command.args.GenericArguments;
+import org.spongepowered.api.command.spec.CommandSpec;
 import org.spongepowered.api.config.ConfigDir;
 import org.spongepowered.api.event.Listener;
+import org.spongepowered.api.event.game.state.GameInitializationEvent;
 import org.spongepowered.api.event.game.state.GamePreInitializationEvent;
 import org.spongepowered.api.plugin.Plugin;
+import org.spongepowered.api.text.Text;
 
 import java.io.File;
 
@@ -54,34 +58,45 @@ public class ItemRestrict {
 	public IresConfig getIresConfig() {
 		return iresConfig;
 	}
+
 	@Listener
 	public void onPreInit(GamePreInitializationEvent event) {
+		getLogger().info("[ItemRestrict] ItemRestrict Started.");
 		server = getServer();
 		getLogger().info("Setting up config...");
 		cfgLoader = new ConfigLoader(this);
 		if (cfgLoader.loadConfig()) iresConfig = cfgLoader.getIresConfig();
 		if (cfgLoader.loadMessages()) messages = cfgLoader.getMessagesConfig();
 	}
-/*
+
+	@Listener
+	public void onInit(GameInitializationEvent event) {
+		getLogger().info("[ItemRestrict] Initialized.");
+		getCommand();
+	}
+
 	public static CommandSpec getCommand() {
-		return CommandSpec.builder()
+		CommandSpec command = CommandSpec.builder()
 				.description(Text.of("Configure item restrictions"))
-				.permission("ires.command.sampletext")
+				.permission("ires.command")
+				.executor(new ItemRestrictCmd(ItemRestrict.instance))
 				.arguments(
 						GenericArguments.flags()
-								.permissionFlag("ires.command.sampletext.reload", "r")
-								.permissionFlag("ires.command.sampletext.hand", "h")
-								.permissionFlag("ires.command.sampletext.ban", "b")
-								.permissionFlag("ires.command.sampletext.unban", "u")
-								.permissionFlag("ires.command.sampletext.convert", "c")
+								.permissionFlag("ires.command.admin.reload", "r")
+								.permissionFlag("ires.command.admin.hand", "h")
+								.permissionFlag("ires.command.admin.ban", "b")
+								.permissionFlag("ires.command.admin.unban", "u")
+								.permissionFlag("ires.command.admin.convert", "c")
 								.buildWith(GenericArguments.none())
 				)
 				.build();
+		registerCommands();
+		return command;
 	}
-*/
-	private void registerCommands() {
-		getLogger().info("Registering commands...");
-		Sponge.getCommandManager().register(this, ItemRestrictCmd.getCommand(), "ires");
+
+	private static void registerCommands() {
+
+		Sponge.getCommandManager().register(ItemRestrict.instance, ItemRestrict.getCommand(), "ires");
 	}
 
 	public File getConfigDir() {

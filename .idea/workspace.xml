@@ -7,15 +7,9 @@
     <list default="true" id="b166c499-ee3c-4343-9e40-5b95a1bd644d" name="Default" comment="First buildable version without any testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ItemRestrict (1).iml" beforeDir="false" afterPath="$PROJECT_DIR$/ItemRestrict (1).iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/ActionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/ActionType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/ConfigStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/ConfigStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/EventListenerIres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/EventListenerIres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/ItemRestrict.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/ItemRestrict.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/ItemRestrictCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/ItemRestrictCmd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/QuickStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/QuickStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/config/ConfigLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/config/ConfigLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/config/IresConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/config/IresConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/config/MessagesConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/config/MessagesConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ItemRestrict-1.5.0-SNAPSHOT.jar" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/backup/target/" />
@@ -65,14 +59,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/ItemRestrict.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="896">
-              <caret line="60" column="39" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
+            <state relative-caret-position="131">
+              <caret line="78" column="48" selection-start-line="78" selection-start-column="48" selection-end-line="78" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -98,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/config/IresConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-634">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="369">
+              <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,18 +118,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/EventListenerIres.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="31" selection-start-column="31" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -236,8 +227,9 @@
         <option value="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/config/IresConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/config/MessagesConfig.java" />
         <option value="$PROJECT_DIR$/ItemRestrict (1).iml" />
-        <option value="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/ItemRestrict.java" />
         <option value="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/config/ConfigLoader.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/ItemRestrict.java" />
       </list>
     </option>
   </component>
@@ -370,7 +362,7 @@
     <property name="GO_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546655140794" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546719904518" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -634,7 +626,7 @@
       <workItem from="1546592690084" duration="4666000" />
       <workItem from="1546639499501" duration="82000" />
       <workItem from="1546639587221" duration="1509000" />
-      <workItem from="1546641119023" duration="2651000" />
+      <workItem from="1546641119023" duration="10535000" />
     </task>
     <task id="LOCAL-00001" summary="Halfway done, Config needs to be given its own folder and merge contents of store.">
       <created>1545776675697</created>
@@ -661,7 +653,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112685000" />
+    <option name="totallyTimeSpent" value="120569000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -686,7 +678,7 @@
       <window_info id="Nl-Palette" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -709,7 +701,7 @@
       <window_info anchor="right" id="Database" order="7" weight="0.3295302" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="Maven" order="10" weight="0.3295302" />
+      <window_info anchor="right" id="Maven" order="10" visible="true" weight="0.3295302" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23959732" />
@@ -766,7 +758,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/mod/command/SpongeForgeCommand.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/command/args/GenericArguments.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/spongepowered/api/command/args/CommandFlags.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/bukkit/Material.java" />
@@ -865,26 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/ItemRestrict.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="896">
-          <caret line="60" column="39" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/ItemRestrictCmd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/QuickStore.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -934,8 +905,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/config/IresConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-634">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="369">
+          <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/ItemRestrictCmd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/info/wubsy/itemrestrict/ItemRestrict.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="78" column="48" selection-start-line="78" selection-start-column="48" selection-end-line="78" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
