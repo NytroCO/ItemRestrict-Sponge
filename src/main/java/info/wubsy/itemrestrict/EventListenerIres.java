@@ -1,4 +1,4 @@
-package info.wubsy.itemrestrict.src.main.java.info.wubsy.itemrestrict;
+package info.wubsy.itemrestrict;
 
 
 import org.spongepowered.api.block.BlockState;

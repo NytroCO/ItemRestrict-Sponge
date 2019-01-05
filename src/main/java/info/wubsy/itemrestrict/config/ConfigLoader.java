@@ -1,7 +1,7 @@
-package info.wubsy.itemrestrict.src.main.java.info.wubsy.itemrestrict.config;
+package info.wubsy.itemrestrict.config;
 
 import com.google.common.reflect.TypeToken;
-import info.wubsy.itemrestrict.src.main.java.info.wubsy.itemrestrict.ItemRestrict;
+import info.wubsy.itemrestrict.ItemRestrict;
 import ninja.leaping.configurate.ConfigurationOptions;
 import ninja.leaping.configurate.commented.CommentedConfigurationNode;
 import ninja.leaping.configurate.hocon.HoconConfigurationLoader;

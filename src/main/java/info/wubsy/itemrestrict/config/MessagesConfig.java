@@ -1,4 +1,4 @@
-package info.wubsy.itemrestrict.src.main.java.info.wubsy.itemrestrict.config;
+package info.wubsy.itemrestrict.config;
 
 import ninja.leaping.configurate.objectmapping.Setting;
 import ninja.leaping.configurate.objectmapping.serialize.ConfigSerializable;
