@@ -46,8 +46,8 @@ public class ItemRestrictCmd implements CommandExecutor {
                 return CommandResult.success();
             }
             if (args.hasAny("c")) {
-                cStore.convert();
-                src.sendMessage(Text.of("Converted"));
+                //cStore.convert();
+                //src.sendMessage(Text.of("Converted"));
                 return CommandResult.success();
             }
 
@@ -64,23 +64,6 @@ public class ItemRestrictCmd implements CommandExecutor {
     		}
     	}
     	return null;
-    }
-
-    public static CommandSpec getCommand() {
-        return CommandSpec.builder()
-                .description(Text.of("sample text"))
-                .permission("ires.command.sampletext")
-                .arguments(
-                        GenericArguments.flags()
-                                .permissionFlag("ires.command.sampletext.reload", "r")
-                                .permissionFlag("ires.command.sampletext.hand", "h")
-                                .permissionFlag("ires.command.sampletext.ban", "b")
-                                .permissionFlag("ires.command.sampletext.unban", "u")
-                                .permissionFlag("ires.command.sampletext.convert", "c")
-                                .buildWith(GenericArguments.none())
-                )
-                .executor(new ItemRestrictCmd(ItemRestrict.instance))
-                .build();
     }
 
     private List<Text> getCommands() {

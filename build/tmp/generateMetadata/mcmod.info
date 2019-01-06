@@ -1,0 +1,8 @@
+[
+    {
+        "modid": "itemrestrict",
+        "name": "ItemRestrict",
+        "version": "1.5.0-SNAPSHOT",
+        "description": "ItemRestrict"
+    }
+]

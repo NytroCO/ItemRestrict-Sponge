@@ -72,30 +72,28 @@ public class ItemRestrict {
 	@Listener
 	public void onInit(GameInitializationEvent event) {
 		getLogger().info("[ItemRestrict] Initialized.");
-		getCommand();
+		registerCommands();
 	}
 
 	public static CommandSpec getCommand() {
 		CommandSpec command = CommandSpec.builder()
 				.description(Text.of("Configure item restrictions"))
-				.permission("ires.command")
-				.executor(new ItemRestrictCmd(ItemRestrict.instance))
+				.permission("ires.command.admin")
 				.arguments(
 						GenericArguments.flags()
-								.permissionFlag("ires.command.admin.reload", "r")
-								.permissionFlag("ires.command.admin.hand", "h")
-								.permissionFlag("ires.command.admin.ban", "b")
-								.permissionFlag("ires.command.admin.unban", "u")
-								.permissionFlag("ires.command.admin.convert", "c")
+								.permissionFlag("itemrestrict.command.admin.reload", "r", "-reload")
+								.permissionFlag("itemrestrict.command.admin.hand", "h", "-hand")
+								.permissionFlag("itemrestrict.command.admin.ban", "b", "-ban")
+								.permissionFlag("itemrestrict.command.admin.unban", "u", "-unban")
+								.permissionFlag("itemrestrict.command.admin.convert", "c", "-convert")
 								.buildWith(GenericArguments.none())
 				)
+				.executor(new ItemRestrictCmd(ItemRestrict.instance))
 				.build();
-		registerCommands();
 		return command;
 	}
 
 	private static void registerCommands() {
-
 		Sponge.getCommandManager().register(ItemRestrict.instance, ItemRestrict.getCommand(), "ires");
 	}
 
