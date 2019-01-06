@@ -81,11 +81,9 @@ public class ItemRestrict {
 				.permission("ires.command.admin")
 				.arguments(
 						GenericArguments.flags()
-								.permissionFlag("itemrestrict.command.admin.reload", "r", "-reload")
 								.permissionFlag("itemrestrict.command.admin.hand", "h", "-hand")
 								.permissionFlag("itemrestrict.command.admin.ban", "b", "-ban")
 								.permissionFlag("itemrestrict.command.admin.unban", "u", "-unban")
-								.permissionFlag("itemrestrict.command.admin.convert", "c", "-convert")
 								.buildWith(GenericArguments.none())
 				)
 				.executor(new ItemRestrictCmd(ItemRestrict.instance))

@@ -1,12 +1,12 @@
 package info.wubsy.itemrestrict;
 
 import info.wubsy.itemrestrict.config.ConfigLoader;
+import org.spongepowered.api.command.CommandException;
 import org.spongepowered.api.command.CommandResult;
 import org.spongepowered.api.command.CommandSource;
 import org.spongepowered.api.command.args.CommandContext;
-import org.spongepowered.api.command.args.GenericArguments;
 import org.spongepowered.api.command.spec.CommandExecutor;
-import org.spongepowered.api.command.spec.CommandSpec;
+import org.spongepowered.api.entity.living.player.Player;
 import org.spongepowered.api.text.Text;
 import org.spongepowered.api.text.action.TextActions;
 
@@ -26,31 +26,24 @@ public class ItemRestrictCmd implements CommandExecutor {
     }
 
     @Override
-    public CommandResult execute(CommandSource src, CommandContext args) {
-        if (args.hasAny("r") || args.hasAny("h") || args.hasAny("b") || args.hasAny ("u") || args.hasAny("c")) {
-            if (args.hasAny("r")) {
-                cfgLoader.loadConfig();
-                src.sendMessage(Text.of("ItemRestrict Config Reloaded"));
-                return CommandResult.success();
-            }
+    public CommandResult execute(CommandSource src, CommandContext args) throws CommandException {
+        if (args.hasAny("h") || args.hasAny("b") || args.hasAny ("u")) {
             if (args.hasAny("h")) { //oh boy I don't know what to do
-                cStore.getInformationInHand(src);
-                return CommandResult.success();
+                if (src instanceof Player) {
+                    cStore.getInformationInHand(src);
+                    return CommandResult.success();
+                }
+                throw new CommandException(Text.of("Could not get hand data."));
+
             }
             if (args.hasAny("b")) {
-                //cStore.addBan(src, getActionType(args[1]), args[2]);
+                cStore.addBan(src, getActionType(args[1]), args[2]);
                 return CommandResult.success();
             }
             if (args.hasAny("u")) {
-                //cStore.removeBan(src, getActionType(args[1]), args[2]);
+                cStore.removeBan(src, getActionType(args[1]), args[2]);
                 return CommandResult.success();
             }
-            if (args.hasAny("c")) {
-                //cStore.convert();
-                //src.sendMessage(Text.of("Converted"));
-                return CommandResult.success();
-            }
-
         }
         return CommandResult.success();
     }
